@@ -1,3 +1,15 @@
-site_name: My Docs
+site_name: Cloud Architecture Docs
 theme:
-  name: material
+    name: material
+    palette:
+        primary: 'white'
+        accent: 'black'
+    font:
+        text: 'Segoe UI'
+        code: 'Roboto Mono'
+    logo: logo/CAD.png  # Path to your logo
+
+
+
+extra_css:
+    - css/extra.css
